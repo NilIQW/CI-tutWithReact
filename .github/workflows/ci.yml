@@ -13,8 +13,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: "22"o
+          node-version: "22"
       - name: Install dependencies
         run: npm clean-install
       - name: Build
-        run: npm run build
+        run: npm run dev
